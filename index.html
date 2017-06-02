@@ -32,7 +32,7 @@
 </head>
 <body class="page_home">
 	
-	<div class="main container" id="main">
+	<div class="wrapper container" id="wrapper">
 		<header id="header" class="header">
 			<section class="row">
 				<div class="col-sm-3 col-xs-12">
@@ -110,7 +110,7 @@
             </div>
         </section><!-- /block-slide -->
 
-        <section class="block block-about block-block-title">
+        <section class="block block-about block-block-title clearfix">
         	<h2 class="block-title">Giới Thiệu Công Ty</h2>
         	<div class="block-content block-3-col">
 	        	<div class="col-sm-3 col-xs-12 block-slide-about">
@@ -146,6 +146,11 @@
         							<td class="title"><img src="images/arrow1.png" alt=""> Thị trường chính</td>
         							<td>Toàn quốc</td>
         						</tr>
+        						<tr>
+        							<td class="title">
+        								<a href="#" title="" class="link" target="_blank">Xem chi tiết...</a>
+        							</td>
+        						</tr>
         					</tbody>
         				</table><!-- /table -->
 	        		</div>
@@ -159,7 +164,7 @@
 	                    <div class="info_contact">
 	                    	<p>Mr.Sen</p>
 	                    	<p style="color: rgba(0,0,0,.87)">Tel: <strong>0909 999 999</strong></p>
-	                    	<a href="mailto:joe@example.com?subject=feedback">abc@gmail.com</a>
+	                    	<a href="mailto:joe@example.com?subject=feedback" title="" class="link">abc@gmail.com</a>
 	                    </div>
 	        		</div>
 	        	</div><!-- /block-contact-about -->
@@ -167,15 +172,48 @@
         </section><!-- /block-about -->
 
 		<section class="block-2-col">
-			<div class="row">
-				<div class="col-sm-4">
-					
-				</div>
+			<div class="col-sm-3 block-sidebar">
+				<section class="block block-search">
+					<div class="block-content">
+						<form action="formsearch.php" method="POST" class="form-inline">
+							<div class="form-group input-serach-sidebar">
+								<input type="text" placeholder="Type here &amp; hit enter">
+							</div>
+							<button type="submit" class="btn-search"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+				</section>
+				<section class="block block-menu-sidebar">
+					<h3 class="block-title">BAO BÌ CARTON</h3>
+					<ul class="block-content">
+						<li><a href="#" title="">Thùng Carton 3 Lớp</a></li>
+						<li><a href="#" title="">Thùng Carton 5 Lớp</a></li>
+						<li><a href="#" title="">Thùng Carton 7 Lớp</a></li>
+						<li><a href="#" title="">Bao Bì Hộp Offset</a></li>
+						<li><a href="#" title="">Pallet Giấy Tổ Ong</a></li>
+					</ul>
+				</section>
+				<section class="block block-menu-sidebar">
+					<h3 class="block-title">GIẤY TẤM CARTON CÁC LOẠI</h3>
+					<ul class="block-content">
+						<li><a href="#" title="">Thùng Carton 3 Lớp</a></li>
+						<li><a href="#" title="">Thùng Carton 5 Lớp</a></li>
+						<li><a href="#" title="">Thùng Carton 7 Lớp</a></li>
+						<li><a href="#" title="">Bao Bì Hộp Offset</a></li>
+						<li><a href="#" title="">Pallet Giấy Tổ Ong</a></li>
+					</ul>
+				</section>
+				<section class="block block-contact-sidebar block-title-sidebar">
+					<h3 class="block-title">Thông Tin Liên Hệ</h3>
+					<div class="block-content">
+						
+					</div>
+				</section>
+			</div><!-- /block-sidebar -->
 
-				<div class="col-sm-8">
-					
-				</div>
-			</div>
+			<div class="col-sm-8 ">
+				
+			</div><!-- /block-sidebar -->
 		</section>
 	</div><!-- /main -->
 
