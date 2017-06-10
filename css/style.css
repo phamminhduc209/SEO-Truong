@@ -476,6 +476,9 @@ a.link:hover {
     -o-transition: all 0.25s ease-out 0s;
     -ms-transition: all 0.25s ease-out 0s;
 }
+.block-menu-sidebar ul li.active a {
+    color: #FF0000;
+}
 .block-menu-sidebar ul li a:before {
     content: "\f105";
     font-family: "FontAwesome";
