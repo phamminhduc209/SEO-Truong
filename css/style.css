@@ -633,8 +633,8 @@ a.link:hover {
     padding: 5px 5px 5px 5px;
     -webkit-appearance: none;
     display: block;
-    background: #fafafa;
-    color: #000000;
+    background: #ffffff;
+    color: #8a8a8a;
     width: 100%;
     border: none;
     border-radius: 0;
@@ -663,7 +663,7 @@ a.link:hover {
     left: -2px;
     font-size: 18px;
     color: #333333;
-    background: #fafafa;
+    background: #ffffff;
     padding: 0 15px;
 }
 /* Underline */
@@ -679,7 +679,7 @@ a.link:hover {
     width: 0;
     bottom: 1px; 
     position: absolute;
-    background: #4a89dc; 
+    background: #ff0000; 
     transition: all 0.2s ease;
 }
 .block-contact-form-tab .form-group .bar:before { left: 50%; }
