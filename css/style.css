@@ -964,3 +964,10 @@ a.link:hover {
         float: left;
     }
 }
+
+/* Logo */
+#header .logo img,
+#mainNav .logo img {
+    width: 130px;
+    height: 130px;
+}
